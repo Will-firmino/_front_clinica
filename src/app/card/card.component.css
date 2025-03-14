@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 262px;
+    min-height: 382px;
+    align-items: center;
+   
+}
+
+.info-medico {
+    background-color: brown;
+}
+
+.info-texto-h2 {
+    background-color: var(--color-primaria);
+    margin-top: 0;
+}
+
+.info-texto-h3 {
+    background-color: var(--color-secundaria);
+}
+
