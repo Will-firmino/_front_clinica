@@ -1,23 +1,28 @@
 section {
     display: flex;
     flex-direction: column;
-    background-color: violet;
+    background-color: #e4e1e1;
     width: 262px;
     min-height: 382px;
-    align-items: center;
-   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding-top: 16px;
+    margin: 30px 60px;
 }
 
 .info-medico {
-    background-color: brown;
+    align-items: center; 
+    justify-items: center;
 }
 
-.info-texto-h2 {
-    background-color: var(--color-primaria);
-    margin-top: 0;
+.info-medico-detalhe {
+    text-decoration: none;
+    background-color: #6278f7;
+    padding: 5px 10px;
+    color: #000000;
+    border-radius: 5px;
 }
 
-.info-texto-h3 {
-    background-color: var(--color-secundaria);
+.info-medico-detalhe:hover {
+    background-color: #a2a8c5;
 }
-
