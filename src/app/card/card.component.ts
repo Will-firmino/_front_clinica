@@ -14,4 +14,11 @@ export class CardComponent {
     imagem: "../../assets/user-1.jpg",
     imagem2: "https://cpv.ifsp.edu.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
   } 
+
+  paciente = {
+    nome: "João da Silva",
+    idade: 25,
+    cidade: "São Paulo",
+    estado: "SP",
+  }
 }
