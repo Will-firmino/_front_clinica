@@ -1,0 +1,44 @@
+.hero {
+    background: linear-gradient(180deg, #64b4ff 0%, #339cff 52%);
+    padding: 80px 0;
+    color: #fff;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.hero-title {
+    font-size: 81px;
+    margin-bottom: 30px;
+    color: #003b60;
+    font-weight: 700;
+}
+
+.hero-title-2 {
+    font-size: 60px;
+    color: #e7ebef;
+}
+
+.hero-title-2 span {
+    color: #003b60;
+}
+
+.hero-subtitle {
+    font-size: 35px;
+    color: #e7ebef;
+}
+
+.hero-image {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
